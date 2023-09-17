@@ -1,0 +1,129 @@
+:root{
+    --bg-color: purple;
+    --bg:rgb(252, 41, 252);
+    --colour: #fff;
+    --submit : green;
+    --delete :red;
+}
+
+html, body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0; 
+    margin: 0; 
+    background-color: rgb(212, 188, 188);
+}
+
+ .nav a{
+    display: grid;
+        background-color: var(--bg);
+border-radius: 15px;
+
+}
+
+.main {
+    display: grid;
+    background-color: var(--bg-color);
+    box-sizing: border-box; 
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+
+.main2 {
+    background-color: var(--colour);
+    box-sizing: border-box; 
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+p{
+    text-align: center;
+
+}
+button{
+    width: 150px;
+    color: var(--colour);
+    text-align: center;
+    text-decoration: underline;
+    background-color: var(--bg-color);
+    padding: 12px 12px;
+    border-radius: 20px;
+    box-sizing: border-box;
+        }
+        .wrap{
+            background-color: var(--bg);
+            box-sizing: border-box;
+            height: 60px;
+        padding: 8px ;
+       
+        }
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif
+    
+
+}
+  h3{
+    text-align: center;
+    border-bottom: #fff solid;
+    font-style: italic;
+    font-family: serif;
+  }
+  h2{
+    text-align: center;
+    border-bottom: var(--bg-color) solid;
+    font-style: italic;
+    font-family: serif;
+  }
+
+  .form{
+    background-color: var(--bg-color);
+    box-sizing: border-box; 
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 30px;
+    box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+
+input, option, select {
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;}
+    form{
+        box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+    }
+ #footer-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    background-color: purple;
+ 
+ }
+ form{
+    background-color: var(--bg);
+    padding: 30px;
+    border-radius: 50px;
+ }
+ h4{
+    text-align: center;
+    font-size: 30px;
+ }
+h6{
+    text-align: center;
+    text-decoration: underline;
+}
